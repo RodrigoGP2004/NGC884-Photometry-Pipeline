@@ -21,10 +21,10 @@ The project is divided into two main modules:
 
 ### Hertzsprung-Russell (Color-Magnitude) Diagram
 Comparison of the reduced observational data (taken during a bad sight night) against Vizier catalogs and theoretical isochrones ($\sim 12 - 15$ Myr).
-*(See `plots/HRFinal3.png`)*
+![HR](plots/HRFinal3.png)
 
 ### Initial Mass Function (IMF)
 The derived mass distribution from our observations. The red line shows our empirical fit ($\alpha = 2.26$), closely following the Salpeter theoretical slope (dashed blue).
-*(See `plots/IMF.png`)*
+![IMF Fit](plots/IMF.png)
 
-![IMF Fit](plots/Mass_histogram.png)
+![Mass_histogram](plots/Mass_histogram.png)
