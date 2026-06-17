@@ -1,7 +1,7 @@
 # NGC884-Photometry-Pipeline
 Complete astronomical data reduction and analysis pipeline developed in Python, customized for a set of observations of the open cluster NGC 884. The project processes raw observational FITS data, performs aperture photometry, and derives its fundamental astrophysical properties, including the Hertzsprung-Russell (H-R) diagram and the Initial Mass Function (IMF).
 
-## 🚀 Pipeline
+## Pipeline
 
 The project is divided into two main modules:
 
@@ -17,7 +17,7 @@ The project is divided into two main modules:
 - **Initial Mass Function (IMF):** Calculation of the stellar density distribution ($dN/dM$). The pipeline fits a power-law to the high-mass end, yielding an index of **$\alpha = 2.26$** (highly consistent with the theoretical Salpeter IMF of $\alpha = 2.35$).
 - **Extrapolation Models:** Implementation of Kroupa IMF multi-part power laws to predict the expected number of hidden populations (brown dwarfs, rogue planets) and missing massive stars.
 
-## 📊 Resulting plots
+## Resulting plots
 
 ### Hertzsprung-Russell (Color-Magnitude) Diagram
 Comparison of the reduced observational data (taken during a bad sight night) against Vizier catalogs and theoretical isochrones ($\sim 12 - 15$ Myr).
